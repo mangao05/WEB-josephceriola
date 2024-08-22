@@ -6,9 +6,9 @@ This API allows users to book appointments for pet services. It supports creatin
 
 ## Prerequisites
 
-- PHP 8.0 or higher
+- PHP 8.1 or higher
 - Composer
-- Laravel 10.x
+- Laravel 11.x
 - MySQL
 
 ## Setup and Installation

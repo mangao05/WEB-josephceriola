@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('appointments', function (Blueprint $table) {
             $table->id();
-            $table->string('frequency');
+            $table->string('frequency', 191);
             $table->date('start_date');
             $table->text('days');
             $table->text('time_of_day');
